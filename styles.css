@@ -1,0 +1,445 @@
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+.header{
+    background-color: black;
+    height: 10dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.menu{
+    width: 10%;
+    background-color: transparent;
+    display:flex;
+}
+
+.btn__menu{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    height: 50%;
+    background-color: transparent;
+}
+
+.btn__menu__img{
+    background-color: transparent;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header__complements{
+    width: 80%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    background-color: transparent;
+}
+.logo__img{
+    background-color: transparent;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.actions{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.actions__btn{
+    width: 20%;
+    height: 50%;
+    background-color: transparent;
+    display:flex;
+}
+
+.actions__img{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+}
+
+.title{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    margin: 2rem 0 .5rem 0;
+    text-align: center;
+}
+
+.beers{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 1rem ;
+}
+
+.card{
+    width: 40dvw;
+    max-width: 350px;
+    height: 35dvh;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.card__figure{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    padding: .5rem 0;
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.card__title{
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: .5rem 0;
+    padding: 0 .5rem;
+}
+.card__paragraph{
+    font-size: .8rem;
+    padding: 0 .5rem;
+}
+
+.card__price{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: .5rem 0;
+    padding: 0 .5rem;
+}
+
+.btn__add{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 100%;
+    background-color: gray;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: blue;
+    border-radius: 0 0 5px 5px;
+    padding: .5rem 0;
+}
+
+.plus{
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap:.5rem;
+    justify-content: space-around;
+}
+.redirection{
+    width: 100dvw;
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redirection__title{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: .5rem 0;
+}
+
+.redirection__paragraph{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #808080;
+}
+
+.redirection__img{
+    height: 2rem;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact{
+    flex-grow: 1;
+    background-color: transparent;
+    padding: 3rem 0;
+}
+
+.contact__info{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color: transparent;
+
+}
+
+.contact__title{
+    text-align: center;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.contact__objects{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.contact__object{
+    margin: 0 1rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:1rem;
+}
+
+.contact__subtitle{
+    font-size: .8rem;
+    background-color: transparent;
+    color: white;
+}
+
+.contact__btn{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.contact__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.enterprise{
+    flex-grow: 1;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+.enterprise__rules{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.enterprise__rule{
+    list-style: none;
+    text-align: center;
+}
+
+.enterprise__redi{
+    font-size: .8rem;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.politica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.politica__divisor{
+    margin: 2rem auto;
+    width: 3rem;
+    border-color: skyblue;
+}
+.politica__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.politica__img{
+    padding: .2rem;
+    background-color: blue;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+}
+
+.filter{
+    display: flex;
+    width: 100dvw;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+}
+
+.filter__btn{
+    margin: .2rem auto;
+    background-color: blue;
+    padding: .5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filter__img{
+    background-color: transparent;
+}
+
+
+.modal{
+    bottom: 0;
+    top:auto;
+    border: none;
+    position: fixed;
+    padding: 1rem;
+    width: 100%;
+    border-radius: .5em;
+    animation: show-modal .5s forwards;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.modal[open]::backdrop{
+    animation: show-backdrop .5s forwards;
+}
+.modal[close]::backdrop{
+    animation: hide-backdrop .7s forwards;
+}
+.modal[close]{
+    animation: hide-modal .5s forwards;
+}
+
+.modal::backdrop{
+    background-color: hsl(0 0% 0% / 70%);
+}
+
+.modal__close{
+    position: absolute;
+    top: -5%;
+    right: 10%;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.modal__option{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+    border-bottom: 1px solid #808080;
+    color: #808080;
+}
+
+
+.modal__btn{
+    height: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.modal__buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    margin: .5rem 0;
+}
+
+.btn__clear{
+    background-color: #ececec;
+    color: #909090;
+}
+@keyframes show-backdrop{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes show-modal{
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes hide-backdrop{
+    100%{
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes hide-modal{
+    100%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}

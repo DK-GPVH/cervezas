@@ -1,0 +1,72 @@
+[
+    {
+        "nombre" : "Cassels Milk Stou",
+        "descripcion" : "Cassels & Sons Brewing. Cerveza porter y stout",
+        "precio" : 75.000,
+        "img" : "./imagenes/cassels.jpg",
+        "tipo" : "rubia" 
+    },
+    {
+        "nombre" : "Camba Pale Ale",
+        "descripcion" : "La Souche Franc-Bois d'hiver. Cerveza pale.",
+        "precio" : 85.300,
+        "img" : "./imagenes/camba.jpg",
+        "tipo" : "morena" 
+    },
+    {
+        "nombre" : "Votus N 001",
+        "descripcion" : "India Pale Ale del año 2019. N 001 Red IPA",
+        "precio" : 75.000,
+        "img" : "./imagenes/votus.jpg",
+        "tipo" : "rubia" 
+    },
+    {
+        "nombre" : "Prairie Artisian",
+        "descripcion" : "Ales Prairie Noir Whiskey Barrel Aged Imperial Stout 12oz",
+        "precio" : 85.300,
+        "img" : "./imagenes/prairie artisian.jpg",
+        "tipo" : "rubia" 
+    },
+    {
+        "nombre" : "Lost Abbey",
+        "descripcion" : "The lost Abbey Citrus Sin American Wild Ale 750ml",
+        "precio" : 75.000,
+        "img" : "./imagenes/lost abbey.jpg",
+        "tipo" : "roja" 
+    },
+    {
+        "nombre" : "Prairie",
+        "descripcion" : "Prairie Artisa Ales Paradise Imperial Stout 12oz",
+        "precio" : 85.300,
+        "img" : "./imagenes/prairie.jpg",
+        "tipo" : "morena" 
+    },
+    {
+        "nombre" : "Redrice",
+        "descripcion" : "Hitachino Nest Beer Red Rice Ale 330ml",
+        "precio" : 85.300,
+        "img" : "./imagenes/redrice.jpg",
+        "tipo" : "roja" 
+    },
+    {
+        "nombre" : "Cascade",
+        "descripcion" : "Cascade Brewing 2017 Brunch Line BA NORTHWEST Sour Ale",
+        "precio" : 175.000,
+        "img" : "./imagenes/cascade.jpg",
+        "tipo" : "rubia" 
+    },
+    {
+        "nombre" : "Topa Topa",
+        "descripcion" : "Topa Topa BREWING CO. 5th Year Anniversary clear lpa 16oz",
+        "precio" : 85.300,
+        "img" : "./imagenes/topa topa.jpg",
+        "tipo" : "roja" 
+    },
+    {
+        "nombre" : "Mira Brune N 6",
+        "descripcion" : "Brown Ale, Brown Mira American Style.",
+        "precio" : 375.000,
+        "img" : "./imagenes/mira brune.jpg",
+        "tipo" : "morena" 
+    }
+]

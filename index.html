@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <a href="#" class="btn__menu">
+                <img src="./imagenes/menu.svg" class="btn__menu__img">
+            </a>
+        </nav>
+        <div class="header__complements">
+            <figure class="logo">
+                <img src="./imagenes/logo.png" class="logo__img">
+            </figure>
+            <section class="actions">
+                <a href="#" class="actions__btn">
+                    <img src="./imagenes/search.svg" alt="" class="actions__img">
+                </a>
+                <a href="#" class="actions__btn">
+                    <img src="./imagenes/car.svg" alt="" class="actions__img">
+                </a>
+            </section>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="title">Cervezas</h1>
+        <section class="beers">
+        </section>
+        <section class="plus">
+            <article class="redirection">
+                <div class="redirection__info">
+                    <p class="redirection__paragraph">Sigue mercando</p>
+                    <h3 class="redirection__title">VINOS</h3>
+                </div>
+                <a href="#" class="redirection__btn">
+                    <img src="./imagenes/arrow.svg" class="redirection__img">
+                </a>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="contact">
+            <article class="contact__info">
+                <h3 class="contact__title">¿Podemos ayudarte?</h3>
+                <div class="contact__objects">
+                    <div class="contact__object">
+                        <a href="#" class="contact__btn">
+                            <img src="./imagenes/message.svg" class="contact__img">
+                        </a>
+                        <h4 class="contact__subtitle">CHAT</h4>
+                    </div>
+                    <div class="contact__object">
+                        <a href="#" class="contact__btn">
+                            <img src="./imagenes/phone.svg" class="contact__img">
+                        </a>
+                    <h4 class="contact__subtitle">LLAMAR</h4>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="enterprise">
+            <article class="enterprise__info">
+                <ul class="enterprise__rules">
+                    <li class="enterprise__rule">
+                        <a href="#" class="enterprise__redi">SOBRE NOSOTROS</a>
+                    </li>
+                    <li class="enterprise__rule">
+                        <a href="#" class="enterprise__redi">MEDIDAS DE SEGURIDAD (COVID-19)</a>
+                    </li>
+                    <li class="enterprise__rule">
+                        <a href="#" class="enterprise__redi">CÓMO MERCAR</a>
+                    </li>
+                    <li class="enterprise__rule"> 
+                        <a href="#" class="enterprise__redi">PROVEEDORES</a>
+                    </li>
+                    <li class="enterprise__rule">
+                        <a href="#" class="enterprise__redi">CONTÁCTENOS</a>
+                    </li>
+                    <li class="enterprise__rule">
+                        <a href="#" class="enterprise__redi">ZONA DE COBERTURA</a>
+                    </li>
+                </ul>
+                <div class="politica">
+                    <hr class="politica__divisor">
+                    <a href="#" class="politica__btn">
+                        <img src="./imagenes/instagram.svg" class="politica__img">
+                    </a>
+                    <li class="enterprise__rule">
+                        <a href="#" class="enterprise__redi">POLITICA DE TRATAMIENTO DE DATOS</a>
+                    </li>
+                </div>
+            </article>
+        </section>
+        <section class="filter">
+            <a href="#" class="filter__btn">
+                Filtrar <img src="./imagenes/filter.svg" class="filter__img">
+            </a>
+        </section>
+        <dialog class="modal">
+            <button class="modal__close">
+                <img src="./imagenes/x.svg" class="modal__img">
+            </button>
+            <h2 class="modal__title">
+                Filtros
+            </h2>
+            <hr>
+            <form>
+                <div class="modal__option">
+                    <label for="">Rubia</label>
+                    <input type="checkbox" class="modal__input" value="rubia" id="input__rubia">
+                </div>
+                <div class="modal__option">
+                    <label for="">Morena</label>
+                    <input type="checkbox" class="modal__input" value="morena" id="input__morena">
+                </div>
+                <div class="modal__option">
+                    <label for="">Roja</label>
+                    <input type="checkbox" class="modal__input" value="roja" id="input__roja">
+                </div>
+            </form>
+            
+            <div class="modal__buttons">
+                <a class="filter__btn modal__btn btn__clear">
+                    Limpiar
+                </a>
+                <a class="filter__btn modal__btn" id="btn__filtrar">
+                    Filtrar <img src="./imagenes/filter.svg" class="filter__img">
+                </a>
+            </div>
+            
+        </dialog>
+    </footer>
+</body>
+<script src="./script.js"> 
+</script>
+</html>
